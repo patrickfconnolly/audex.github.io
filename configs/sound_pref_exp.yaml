@@ -31,20 +31,6 @@ pages:
       name: Ready?
       content: Now that you are confortable with the rating interface, we shall proceed to the actual test. Ready? Go! <br> <br> <b>Reminder:</b> do not alter the volume between ratings.
   
-    - 
-          - random
-          - type: paired_comparison
-            id: poly_1
-            name:
-            content: Please rate the quality of all 6 signals from 0 to 100, in comparison to the reference.
-            enableLooping: true 
-            createAnchor35: false
-            createAnchor70: false
-            stimuli:
-                C1: configs/resources/audio/mono_c2.wav
-                C2: configs/resources/audio/mono_c1.wav 
-
-
     - type: finish
       name: Thank you
       content: Thank you for completing this perceptive test. The results will help us assess our algorithm against state-of-the-art methods. Can you finally fill in some anonymous information so that our study is more precise ? Thanks a lot!
